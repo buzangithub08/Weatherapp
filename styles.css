@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('pngtree-white-cloud-on-blue-sky-weather-background-image_410050.jpg'); /* Replace with your image file name */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Change text color for better contrast */
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px; /* Set a fixed width for consistency */
+}
+
+input:focus {
+    outline: none; /* Remove default outline */
+    border: 2px solid #007bff; /* Highlight border on focus */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff; /* Button color */
+    color: white;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
+
+button:disabled {
+    background-color: #555; /* Color for disabled button */
+    cursor: not-allowed; /* Change cursor to indicate disabled state */
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
